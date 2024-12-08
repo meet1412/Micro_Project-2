@@ -8,6 +8,6 @@ const carSchema = new mongoose.Schema({
   isAvailable: { type: Boolean, default: true },
 });
 
-const Car = mongoose.model("Car", carSchema);
+const Car = mongoose.model("Car", carSchema, "cars");
 
 export default Car;
