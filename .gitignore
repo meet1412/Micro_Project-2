@@ -1,5 +1,5 @@
 # Environment variable files
-*.env
+dotenv
 
 # Node.js modules
 node_modules/
