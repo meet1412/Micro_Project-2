@@ -2,20 +2,27 @@
   "name": "micro_project-2",
   "version": "1.0.0",
   "description": "A simple MongoDB, Express, and Node.js (MEN) application demonstrating CRUD operations.",
-  "main": "index.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["MongoDB", "Express", "Node.js", "CRUD", "MEN"],
+  "keywords": [
+    "MongoDB",
+    "Express",
+    "Node.js",
+    "CRUD",
+    "MEN"
+  ],
   "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "mongoose": "^8.8.4"
+    "mongoose": "^8.8.4",
+    "mongoose-sequence": "^6.0.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
